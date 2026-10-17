@@ -1,0 +1,74 @@
+plugins {
+    id 'java'
+}
+
+group = 'pl.ehytale'
+version = '4.0.0'
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    stub {
+        java {
+            srcDirs = ['src/stub/java']
+        }
+    }
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+        compileClasspath += sourceSets.stub.output
+    }
+}
+
+dependencies {
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+    stubCompileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+}
+
+tasks.named('compileJava') {
+    dependsOn tasks.named('compileStubJava')
+}
+
+jar {
+    archiveBaseName.set('PolishLanguageTranslation')
+    archiveVersion.set(project.version.toString())
+    archiveClassifier.set('')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from('Fonts') { into('Fonts') }
+    from('Language') { into('Language') }
+    from('Language/server.lang') { into('Server/Languages/pl-PL') }
+
+    manifest {
+        attributes(
+            'Implementation-Title': 'PolishLanguageTranslation',
+            'Implementation-Version': project.version,
+            'Implementation-Vendor': 'AT0MS',
+            'Specification-Title': 'Hytale Mod',
+            'Hytale-Mod-Name': 'PolishLanguageTranslation',
+            'Hytale-Mod-Version': project.version,
+            'Hytale-Mod-IncludesAssetPack': 'true'
+        )
+    }
+}
+
+tasks.register('packageMod') {
+    dependsOn jar
+    doLast {
+        copy {
+            from jar.archiveFile
+            into projectDir
+            rename { 'PolishLanguageTranslation.jar' }
+        }
+        println "Zbudowano mod: PolishLanguageTranslation.jar"
+    }
+}

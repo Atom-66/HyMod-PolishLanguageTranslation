@@ -1,0 +1,40 @@
+# Keys in this file are not uploaded to Crowdin and stay in English for every language.
+
+# === settings ===
+
+settings.prototype.groups.weaponPullback = Cofanie broni
+settings.prototype.groups.entityui = Interfejs bytów
+settings.prototype.groups.playselect = Narzędzie zaznaczania w grze
+settings.prototype.groups.paint = Malowanie
+settings.prototype.groups.debug = Debugowanie
+settings.prototype.percentagePlayGizmoLength = Procentowa szerokość renderowania gizma
+settings.prototype.minPlaySelectGizmoSize = Minimalny rozmiar gizma
+settings.prototype.maxPlaySelectGizmoSize = Maksymalny rozmiar gizma
+settings.prototype.paintOperationIgnoreHistoryLength = Długość ignorowania historii malowania w grze
+settings.prototype.adventureInteractionDistance = Ogólny zasięg interakcji
+settings.prototype.useBlockSubfaces = Używaj podpowierzchni bloków
+settings.prototype.displayBlockSubfaces = Wyświetlaj podpowierzchnie bloków
+settings.prototype.displayBlockBoundaries = Wyświetlaj granice bloków
+settings.prototype.placeBlocksAtRangeInAdventureMode = ---> Poza trybem kreatywnym
+settings.prototype.blockPlacementSupportValidation = Walidacja podparcia stawiania bloków
+settings.prototype.blockPlacementFluidity = Płynność stawiania bloków w trybie kreatywnym
+settings.prototype.resetMouseSensitivityDuration = Czas powrotu do pełnej czułości myszy
+settings.prototype.builderMode = Tryb budowniczego
+settings.prototype.builderMode.tooltip = Gdy włączone ORAZ w trybie kreatywnym, wyłącza niektóre funkcje (np. efekty upadku, kołysanie kamery itp.)
+settings.prototype.weaponPullback = Cofanie broni
+settings.prototype.itemAnimationsClipGeometry = Przycinanie geometrii animacji przedmiotów (na animację)
+settings.prototype.itemsClipGeometry = Przycinanie geometrii przedmiotów (na przedmiot)
+settings.prototype.overrideFirstPersonAnimations = Użyj nadpisania animacji pierwszoosobowych
+settings.prototype.entityUIMaxEntities = Maks. liczba bytów
+settings.prototype.entityUIMaxDistance = Maks. zasięg paska zdrowia
+settings.prototype.entityUIFadeStartDistance = Odległość rozpoczęcia zanikania
+settings.prototype.entityUIShrinkStartDistance = Odległość rozpoczęcia zmniejszania
+settings.prototype.entityUIMinScale = Min. skala
+settings.prototype.entityUIHideDelay = Opóźnienie ukrycia
+settings.prototype.entityUIFadeInDuration = Czas pojawiania się
+settings.prototype.entityUIFadeOutDuration = Czas zanikania
+settings.prototype.entityUILineOfSight = Sprawdzanie linii wzroku
+settings.prototype.entityUICombatTextMaxDistance = Maks. zasięg tekstu walki
+settings.prototype.displayTempPrefix = Pokaż znaczniki [TMP] przy tekście
+settings.prototype.forceManagedSession = Wymuś sesję zarządzaną
+
