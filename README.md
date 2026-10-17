@@ -18,7 +18,7 @@ Mod dodający opcję wyboru **języka polskiego (`Polski` / `pl-PL`)** oraz dedy
 
 1. Skopiuj plik **`PolishLanguageTranslation.jar`** do folderu modów gry:
    - **Windows**: `%APPDATA%\Hytale\UserData\Mods\`
-   - **Linux**: `~/.local/share/Hytale/UserData/Mods/`
+   - **Linux**: `~/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/`
 2. Włącz mod **`PolishLanguageTranslation`** w ustawieniach świata (*World Settings -> Mods*) i wejdź na świat, aby mod dodał język polski do klienta.
 3. W ustawieniach gry (**Settings -> General -> Language**) wybierz z listy język **Polski**.
 
@@ -52,7 +52,7 @@ A mod that adds the **Polish language (`Polski` / `pl-PL`)** option and dedicate
 
 1. Copy the **`PolishLanguageTranslation.jar`** file to the game's mods folder:
    - **Windows**: `%APPDATA%\Hytale\UserData\Mods\`
-   - **Linux**: `~/.local/share/Hytale/UserData/Mods/`
+   - **Linux**: `~/.var/app/com.hypixel.HytaleLauncher/data/Hytale/UserData/Mods/`
 2. Enable the **`PolishLanguageTranslation`** mod in the world settings (*World Settings -> Mods*) and join the world so the mod can add the Polish language to the client.
 3. In the game settings (**Settings -> General -> Language**), select **Polski** from the list.
 
