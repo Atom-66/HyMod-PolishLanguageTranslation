@@ -25,16 +25,6 @@ Mod dodający opcję wyboru **języka polskiego (`Polski` / `pl-PL`)** oraz dedy
 
 ---
 
-## 🛠️ Budowanie z kodu źródłowego (Gradle)
-
-```bash
-./gradlew packageMod
-```
-Wygenerowany plik moda:
-- `PolishLanguageTranslation.jar`
-
----
-
 ## 🌐 Informacje o projekcie
 
 - **Autor**: AT0MS
