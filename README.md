@@ -38,5 +38,5 @@ Wygenerowany plik moda:
 ## 🌐 Informacje o projekcie
 
 - **Autor**: AT0MS
-- **Wersja tłumaczenia**: 4.0
+- **Wersja tłumaczenia**: 4.0.0
 - **Strona projektu**: [https://hymod.pl](https://hymod.pl)
